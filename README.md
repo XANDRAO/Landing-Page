@@ -23,7 +23,7 @@
                         <li><a href="#">Entrar</a></li>
                     </ul>
                  </nav>
-                 <buttonS><img src="https://user-imagemenu-icon](https://user-images.githubusercontent.com/100946873/190888204-633b64ef-244d-4982-bd73-01f87b5eaae4.png)s.githubusercontent.com/100946873/190888204-633b64ef-244d-4982-bd73-01f87b5eaae4.png"></button>
+                 <buttonS><img src="https://user-images.githubusercontent.com/100946873/190888207-1063b434-d3dc-4f9a-8b16-e9ccfe864d18.png"></button>
             </header>
             <main>
                 <section class="main__left">
