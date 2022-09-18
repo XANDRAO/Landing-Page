@@ -1,63 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cidade inteligentes</title>
-</head>
-<body>
-    <div class="container">
-        <div class="navbar">
-            <a href="index.html"> <img src="img/logo.png" class="logo"></a>
-            <nav>
-                <ul>
-                    <li> <a href="#">PAGINA INICIAL</a></li>
-                    <li> <a href="#">REGIÃO</a></li>
-                    <li> <a href="#">SOBRE</a></li>
-                    <img src="img/menu.png" class="menu-icon"/>
-                </ul>
-            </nav>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h1>Cidades Inteligentes
-                </i></h1>
-                <p>
-                    Cidades inteligentes no Mundo e como elas podem promover o desenvolvimento sustentável.
-                    Smart Cities devem incluir tecnologia em visão multisetorial em seu planejamento urbano.
-                </p>
-                <button>Explorar</button>
-            </div>
-            <div class="col">
-                <div class="card card1">
-                    <h5>New York</h5>
-                    <p>
-                        A cidade de Nova York compreende 5 distritos situados no encontro do rio Hudson com o Oceano Atlântico
-                    </p>
+<html lang ="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-witch, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png"></a>
                 </div>
+                 <nav>
+                    <ul class="menu-list">
+                        <li><a href="index.html">Pagina inicial</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Entrar</a></li>
+                    </ul>
+                 </nav>
+                 <buttonS><img src="img/menu-icon.png"></button>
+            </header>
+            <main>
+                <section class="main__left">
+                  <h1><b>Interface</b> & Experiência</h1>
+                  <p>
+                    Saiba todas as diferenças Veja as característcias entre UI e UX.
+                    Saiba o que são. Acesse. Saiba tudo sobre as diferenças entre UI e UX.Acesse o nosso conteúdo. Veja o Nosso Blog.
+                    Sites, Sistemas e Apps. Entre em contato. 31 Anos de Atuação.
+                  </p>
+                <div class="main__left-btn">
+                    <button>Começar</button>
+                    <button>Ver mais</button>
+                </div>
+                </section>
+                <section class="main__rigth">
+                    <img src="img/phone.png" width="100%">
 
-                <div class="col">
-                    <div class="card card2">
-                        <h5>Dubai</h5>
-                        <p>
-                            Dubai é uma cidade e um emirado dos Emirados Árabes Unidos conhecida pelos shoppings de luxo
-                        </p>
-            </div>
-            <div class="col">
-                <div class="card card3">
-                    <h5>Roma</h5>
-                    <p>
-                        Roma, a capital da Itália, é uma cidade cosmopolita, enorme, com quase 3.000 anos de arte
-                    </p>
+
+                </section>
+            </main>
         </div>
-        <div class="col">
-            <div class="card card4">
-                <h5>Los Angeles</h5>
-                <p>
-                    Los Angeles é uma grande cidade do sul da Califórnia e também o centro da indústria de cinema e televisão do país. 
-                </p>
-    </div>
-</body>
+        <script>
+            var menu = document.querySelector('nav');
+            var menuicon = document.querySelector('.menu-icon');
+            var closeicon = document.querySelector('.close-icon');
+            menuicon.addEventListener('click' ,()=>{
+                menu.classList.add('active');
+            });
+            closeicon.addEventListener('click',()=>{
+                    menu.classList.remove('active');
+            });
+
+        </script>
+    </body>
 </html>
