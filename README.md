@@ -13,7 +13,7 @@
         <div class="container">
             <header>
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo.png"></a>
+                    <a href="index.html"><img src="https://user-images.githubusercontent.com/100946873/190888198-cc535941-04ad-4745-a940-2adc953a761d.png"></a>
                 </div>
                  <nav>
                     <ul class="menu-list">
@@ -23,7 +23,7 @@
                         <li><a href="#">Entrar</a></li>
                     </ul>
                  </nav>
-                 <buttonS><img src="img/menu-icon.png"></button>
+                 <buttonS><img src="https://user-imagemenu-icon](https://user-images.githubusercontent.com/100946873/190888204-633b64ef-244d-4982-bd73-01f87b5eaae4.png)s.githubusercontent.com/100946873/190888204-633b64ef-244d-4982-bd73-01f87b5eaae4.png"></button>
             </header>
             <main>
                 <section class="main__left">
@@ -40,7 +40,7 @@
                 </div>
                 </section>
                 <section class="main__rigth">
-                    <img src="img/phone.png" width="100%">
+                    <img src="https://user-images.githubusercontent.com/100946873/190888207-1063b434-d3dc-4f9a-8b16-e9ccfe864d18.png" width="100%">
 
 
                 </section>
